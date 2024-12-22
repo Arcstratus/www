@@ -6,5 +6,17 @@
 </script>
 
 <ParaglideJS {i18n}>
-	{@render children()}
+	<div class="gird h-screen grid-rows-[auto_1fr_auto]">
+		<header class="sticky top-0 z-10 px-8 py-4 backdrop-blur-sm">
+			<div class="between middle mx-auto flex w-full gap-4"></div>
+		</header>
+
+		<main class="space-y-4 p-4">
+			{@render children()}
+		</main>
+
+		<footer class="px-8 py-4">
+			<div class="middle between mx-auto flex w-full gap-4"></div>
+		</footer>
+	</div>
 </ParaglideJS>
