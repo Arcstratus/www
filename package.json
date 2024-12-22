@@ -38,6 +38,8 @@
 		"vitest": "^2.0.4"
 	},
 	"dependencies": {
-		"@inlang/paraglide-sveltekit": "^0.11.1"
+		"@inlang/paraglide-sveltekit": "^0.11.1",
+		"@zag-js/svelte": "^0.78.3",
+		"@zag-js/tooltip": "^0.78.3"
 	}
 }
