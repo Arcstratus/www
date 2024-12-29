@@ -25,7 +25,7 @@
 	});
 </script>
 
-<div {...api.getRootProps()} class="h-16 w-auto">
+<div {...api.getRootProps()} class="h-8 w-auto">
 	{@render children?.()}
 
 	<img {alt} {src} class="h-full w-full object-contain" {...api.getImageProps()} />
