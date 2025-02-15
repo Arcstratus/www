@@ -5,6 +5,10 @@
   let { children } = $props();
 </script>
 
+<svelte:head>
+  <title>Arcstratus</title>
+</svelte:head>
+
 <ParaglideJS {i18n}>
   {@render children()}
 </ParaglideJS>
