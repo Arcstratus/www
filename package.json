@@ -29,6 +29,6 @@
     "vitest": "^3.0.0"
   },
   "dependencies": {
-    "@inlang/paraglide-sveltekit": "^0.15.5"
+    "@tabler/icons-svelte": "^3.30.0"
   }
 }
