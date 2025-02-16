@@ -2,4 +2,4 @@
   import { IconCloudBolt } from "@tabler/icons-svelte";
 </script>
 
-<IconCloudBolt />
+<IconCloudBolt class="text-white" />

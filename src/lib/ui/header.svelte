@@ -10,7 +10,7 @@
   <Logo />
 
   <nav class="hidden lg:block">
-    <ul class="flex center middle gap-4 text-xl">
+    <ul class="flex center middle gap-4 text-lg">
       <li>
         <Link to="/product" label="product" />
       </li>

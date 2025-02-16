@@ -13,8 +13,8 @@
   const { label, to }: LinkProps = $props();
 </script>
 
-<a href={to} class="relative group bg-black">
-  <span class={cn("capitalize", "text-[#9ca3af] group-hover:text-white")}>
+<a href={to} class="relative group">
+  <span class={cn("capitalize text-foreground group-hover:text-white")}>
     {label}
   </span>
   <span
