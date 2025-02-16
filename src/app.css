@@ -15,6 +15,10 @@
     color: var(--color-foreground);
     @apply overscroll-none;
   }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
   }
 
   /* scrollbar styling. */
