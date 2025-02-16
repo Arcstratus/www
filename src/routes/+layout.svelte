@@ -13,9 +13,13 @@
 </svelte:head>
 
 <ParaglideJS {i18n}>
-  <Header />
-  <main>
-    {@render children()}
-  </main>
-  <Footer />
+  <div class="grid grid-rows-[auto_1fr_auto] h-dvh overflow-hidden">
+    <Header />
+
+    <main class="p-8">
+      {@render children()}
+    </main>
+
+    <Footer />
+  </div>
 </ParaglideJS>

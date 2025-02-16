@@ -27,13 +27,13 @@
 }
 
 @layer components {
-  .flex.left {
+  .flex.start {
     @apply justify-start;
   }
   .flex.center {
     @apply justify-center;
   }
-  .flex.right {
+  .flex.end {
     @apply justify-end;
   }
   .flex.between {
