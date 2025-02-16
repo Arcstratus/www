@@ -1,12 +1,20 @@
 @import "tailwindcss";
 
+@theme {
+  --color-background: var(--color-zinc-950);
+  --color-foreground: var(--color-zinc-400);
+}
+
 @layer base {
   html {
     @apply scroll-smooth;
   }
 
   body {
-    @apply overscroll-none bg-black text-white;
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    @apply overscroll-none;
+  }
   }
 
   /* scrollbar styling. */
