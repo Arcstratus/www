@@ -1,8 +1,14 @@
 <script>
   import Logo from "$lib/logo.svelte";
+  import { cn } from "$lib/utils.js";
 </script>
 
-<header class="sticky top-0 z-1000 h-16 p-8 flex middle gap-8">
+<header
+  class={cn(
+    "sticky top-0 z-1000 h-16 p-8 flex middle gap-8",
+    "w-full xl:max-w-7xl mx-auto", // container
+  )}
+>
   <Logo />
 
   <nav class="hidden lg:block">

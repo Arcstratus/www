@@ -31,6 +31,8 @@
   "dependencies": {
     "@inlang/paraglide-sveltekit": "^0.15.5",
     "@sveltejs/adapter-auto": "^4.0.0",
-    "@tabler/icons-svelte": "^3.30.0"
+    "@tabler/icons-svelte": "^3.30.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.0.1"
   }
 }
