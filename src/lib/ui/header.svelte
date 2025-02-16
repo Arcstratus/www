@@ -1,6 +1,7 @@
 <script>
-  import Logo from "$lib/logo.svelte";
   import { cn } from "$lib/utils.js";
+  import Logo from "$lib/logo.svelte";
+  import Link from "$lib/component/link.svelte";
 </script>
 
 <header
@@ -12,11 +13,19 @@
   <Logo />
 
   <nav class="hidden lg:block">
-    <ul class="flex center middle gap-4">
-      <li>Product</li>
-      <li>API</li>
-      <li>Blog</li>
-      <li>About</li>
+    <ul class="flex center middle gap-4 text-xl">
+      <li>
+        <Link to="/product" label="product" />
+      </li>
+      <li>
+        <Link to="/api" label="label" />
+      </li>
+      <li>
+        <Link to="/blog" label="blog" />
+      </li>
+      <li>
+        <Link to="/about" label="about" />
+      </li>
     </ul>
   </nav>
 
@@ -24,10 +33,18 @@
     <button class="active:scale-90">menu</button>
 
     <ul class="flex-col top gap-4 hidden">
-      <li>Product</li>
-      <li>API</li>
-      <li>Blog</li>
-      <li>About</li>
+      <li>
+        <Link to="/product" label="product" />
+      </li>
+      <li>
+        <Link to="/api" label="label" />
+      </li>
+      <li>
+        <Link to="/blog" label="blog" />
+      </li>
+      <li>
+        <Link to="/about" label="about" />
+      </li>
     </ul>
   </nav>
 </header>

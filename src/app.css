@@ -6,7 +6,7 @@
   }
 
   body {
-    @apply overscroll-none;
+    @apply overscroll-none bg-black text-white;
   }
 
   /* scrollbar styling. */
