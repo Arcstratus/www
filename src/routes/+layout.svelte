@@ -16,7 +16,7 @@
   <div class="grid grid-rows-[auto_1fr_auto] h-dvh overflow-hidden">
     <Header />
 
-    <main class="p-8">
+    <main class="p-8 overflow-auto min-h-full">
       {@render children()}
     </main>
 
