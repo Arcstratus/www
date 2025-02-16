@@ -15,7 +15,7 @@
         <Link to="/product" label="product" />
       </li>
       <li>
-        <Link to="/api" label="label" />
+        <Link to="/api" label="api" />
       </li>
       <li>
         <Link to="/blog" label="blog" />
@@ -34,7 +34,7 @@
         <Link to="/product" label="product" />
       </li>
       <li>
-        <Link to="/api" label="label" />
+        <Link to="/api" label="api" />
       </li>
       <li>
         <Link to="/blog" label="blog" />
