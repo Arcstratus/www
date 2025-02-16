@@ -5,10 +5,7 @@
 </script>
 
 <header
-  class={cn(
-    "sticky top-0 z-1000 h-16 p-8 flex middle gap-8",
-    "w-full xl:max-w-7xl mx-auto", // container
-  )}
+  class={cn("sticky top-0 z-1000 h-16 p-8 flex middle gap-8", "container")}
 >
   <Logo />
 
